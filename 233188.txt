@@ -1,0 +1,234 @@
+
+boris@Bobo MINGW64 ~
+$ dir
+AppData
+Application\ Data
+CLionProjects
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+IdeaProjects
+Links
+Local\ Settings
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{f03da556-5a6a-11ef-946e-bb0e91b9e7e6}.TM.blf
+NTUSER.DAT{f03da556-5a6a-11ef-946e-bb0e91b9e7e6}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{f03da556-5a6a-11ef-946e-bb0e91b9e7e6}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Os
+Postman
+PrintHood
+PycharmProjects
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Tracing
+Videos
+WebstormProjects
+Zomboid
+cleancode.mk
+eestec\ challege
+npm-cache
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+rockettest
+untitled
+
+boris@Bobo MINGW64 ~
+$ cd Desktop/
+
+boris@Bobo MINGW64 ~/Desktop
+$ cd SI_2025_lab1_233188
+bash: cd: SI_2025_lab1_233188: No such file or directory
+
+boris@Bobo MINGW64 ~/Desktop
+$ dir
+Adobe\ Illustrator\ 2020.lnk
+
+boris@Bobo MINGW64 ~/Desktop
+$ cd ..
+
+boris@Bobo MINGW64 ~
+$ dir
+AppData
+Application\ Data
+CLionProjects
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+IdeaProjects
+Links
+Local\ Settings
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{f03da556-5a6a-11ef-946e-bb0e91b9e7e6}.TM.blf
+NTUSER.DAT{f03da556-5a6a-11ef-946e-bb0e91b9e7e6}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{f03da556-5a6a-11ef-946e-bb0e91b9e7e6}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Os
+Postman
+PrintHood
+PycharmProjects
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Tracing
+Videos
+WebstormProjects
+Zomboid
+cleancode.mk
+eestec\ challege
+npm-cache
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+rockettest
+untitled
+
+boris@Bobo MINGW64 ~
+$ cd OneDrive/
+
+boris@Bobo MINGW64 ~/OneDrive
+$ cd desktop
+
+boris@Bobo MINGW64 ~/OneDrive/desktop
+$ cd SI_2025_lab1_233188/
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188
+$ git init
+Initialized empty Git repository in C:/Users/boris/OneDrive/Desktop/SI_2025_lab1_233188/.git/
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git remote add origin https://github.com/imbrsk/SI_2025_lab1_233188
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git add README.md
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 598ac34] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git add SI2025Lab1Main.java
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git commit -m "Add starter code"
+[master ae6f101] Add starter code
+ 1 file changed, 126 insertions(+)
+ create mode 100644 SI2025Lab1Main.java
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git fetch origin
+From https://github.com/imbrsk/SI_2025_lab1_233188
+ * [new branch]      5-filter-tasks-by-category -> origin/5-filter-tasks-by-category
+ * [new branch]      6-find-the-highest-priority-unfinished-task -> origin/6-find-the-highest-priority-unfinished-task
+ * [new branch]      7-count-tasks-per-category -> origin/7-count-tasks-per-category
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git checkout 5-filter-tasks-by-category
+Switched to a new branch '5-filter-tasks-by-category'
+branch '5-filter-tasks-by-category' set up to track 'origin/5-filter-tasks-by-category'.
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (5-filter-tasks-by-category)
+$ git add SI2025Lab1Main.java
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (5-filter-tasks-by-category)
+$ git commit -m "Implement feature 5"
+[5-filter-tasks-by-category 5662075] Implement feature 5
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (5-filter-tasks-by-category)
+$ git checkout 6-find-the-highest-priority-unfinished-task
+Switched to a new branch '6-find-the-highest-priority-unfinished-task'
+branch '6-find-the-highest-priority-unfinished-task' set up to track 'origin/6-find-the-highest-priority-unfinished-task'.
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (6-find-the-highest-priority-unfinished-task)
+$ git add SI2025Lab1Main.java
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (6-find-the-highest-priority-unfinished-task)
+$ git commit -m "Implement feature 6"
+[6-find-the-highest-priority-unfinished-task 54c448f] Implement feature 6
+ 1 file changed, 19 insertions(+), 2 deletions(-)
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (6-find-the-highest-priority-unfinished-task)
+$ git checkout 7-count-tasks-per-category
+Switched to a new branch '7-count-tasks-per-category'
+branch '7-count-tasks-per-category' set up to track 'origin/7-count-tasks-per-category'.
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (7-count-tasks-per-category)
+$ git add SI2025Lab1Main.java
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (7-count-tasks-per-category)
+$ git commit -m "Implement feature 7"
+[7-count-tasks-per-category 8a50ea3] Implement feature 7
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (7-count-tasks-per-category)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git merge 5-filter-tasks-by-category
+Updating ae6f101..5662075
+Fast-forward
+ SI2025Lab1Main.java | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git merge 6-find-the-highest-priority-unfinished-task
+Auto-merging SI2025Lab1Main.java
+hint: Waiting for your editor to close the file...       0 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                                                  809376 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                                                               1174218 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+             1379602 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                           1587535 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                         2107414 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                                       2171226 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                                                     2229694 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+   2248000 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                 2307838 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                               2369558 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                             2433774 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                                           2498870 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                                                                         2563303 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+       2626535 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+                     2688206 [sig] bash 1142! sigpacket::process: Suppressing signal 18 to win32 process (pid 5016)
+Merge made by the 'ort' strategy.
+ SI2025Lab1Main.java | 21 +++++++++++++++++++--
+ 1 file changed, 19 insertions(+), 2 deletions(-)
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git log --oneline --graph --all > logs.txt
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$ git add logs.txt 233188.txt
+fatal: pathspec '233188.txt' did not match any files
+
+boris@Bobo MINGW64 ~/OneDrive/desktop/SI_2025_lab1_233188 (master)
+$

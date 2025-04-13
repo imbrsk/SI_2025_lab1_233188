@@ -1,0 +1,17 @@
+*   48ac636 Merge pull request #11 from imbrsk/7-count-tasks-per-category
+|\  
+| * 8a50ea3 Implement feature 7
+| | *   dd45335 Merge pull request #10 from imbrsk/master
+| | |\  
+| |_|/  
+|/| |   
+* | |   255764b Merge branch '6-find-the-highest-priority-unfinished-task'
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 54c448f Implement feature 6
+| |/  
+* / 5662075 Implement feature 5
+|/  
+* ae6f101 Add starter code
+* 598ac34 Initial commit
